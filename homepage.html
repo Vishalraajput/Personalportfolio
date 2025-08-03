@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="p-icon" href="icon_11zon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishal Rajput - Portfolio</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script> <!-- Replace with your Font Awesome kit -->
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+    <!-- Header Section -->
+    <header class="bg-gray-900/80 backdrop-blur-sm fixed top-0 left-0 right-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-white">VR.</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="nav-link hover:text-indigo-400 transition duration-300">About</a>
+                <a href="#projects" class="nav-link hover:text-indigo-400 transition duration-300">Projects</a>
+                <a href="#contact" class="nav-link hover:text-indigo-400 transition duration-300">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#about" class="block py-2 px-4 text-sm hover:bg-gray-700">About</a>
+            <a href="#projects" class="block py-2 px-4 text-sm hover:bg-gray-700">Projects</a>
+            <a href="#contact" class="block py-2 px-4 text-sm hover:bg-gray-700">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="min-h-screen flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('https://placehold.co/1920x1080/0a0a0a/4a4a4a?text=Welcome');">
+            <div class="bg-black bg-opacity-50 p-10 rounded-lg">
+                <h1 class="text-5xl md:text-7xl font-bold mb-4 animate-fade-in-down">Vishal Rajput</h1>
+                <p class="text-xl md:text-2xl text-indigo-300 mb-8 animate-fade-in-up">Aspiring Data Scientist & Insight Enthusiast</p>
+                <a href="#projects" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 transform hover:scale-105">View My Work</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 px-6 container mx-auto scroll-mt-16">
+            <h2 class="text-4xl font-bold text-center mb-12">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/3">
+                    <img src="profile.jpg" alt="Vishal Rajput" class="rounded-full mx-auto shadow-lg w-64 h-64 md:w-80 md:h-80 object-cover">
+                </div>
+                <div class="md:w-2/3 text-center md:text-left">
+                    <p class="text-lg mb-6 text-gray-300">
+                        Hi, I'm Vishal — a enthusiast turning complex data into clear, actionable insights. With a passion for numbers, patterns, and storytelling, I blend analytical thinking with real-world problem-solving to drive smarter decisions.
+                    </p>
+                    <p class="text-lg text-gray-300">
+                       I specialize in data analysis, machine learning, and Python libraries like Pandas, NumPy, and Scikit-learn. I love uncovering patterns in data and building models that solve real-world problems. When I'm not crunching numbers, you’ll find me exploring new AI trends or contributing to open-source data projects.
+                    </p>
+                    <a href="#" class="mt-8 inline-block bg-gray-700 hover:bg-gray-600 text-white font-bold py-3 px-6 rounded-full transition duration-300">Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 px-6 bg-gray-800 scroll-mt-16">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12">My Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project Card 1 -->
+                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <img src="weatherly.png" alt="Project 1" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-2">Weatherly</h3>
+                            <p class="text-gray-400 mb-4">A fully functional weather app built with HTML, CSS and OpenWeatherMap API.</p>
+                            <a href="https://weatherly-laofy.sevalla.page/" class="text-indigo-400 hover:underline mr-4">Live Demo</a>
+                            <a href="https://github.com/Vishalraajput/weather1.git" class="text-indigo-400 hover:underline">Source Code</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <img src="https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Two" alt="Project 2" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-2">Task Management App</h3>
+                            <p class="text-gray-400 mb-4">A sleek and intuitive task manager with drag-and-drop functionality using Vue.js.</p>
+                            <a href="#" class="text-indigo-400 hover:underline mr-4">Live Demo</a>
+                            <a href="#" class="text-indigo-400 hover:underline">Source Code</a>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="bg-gray-900 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition duration-300">
+                        <img src="https://placehold.co/600x400/1a1a1a/ffffff?text=Project+Three" alt="Project 3" class="w-full h-56 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold mb-2">Portfolio Website</h3>
+                            <p class="text-gray-400 mb-4">The very portfolio you are looking at, built with HTML, Tailwind CSS, and vanilla JS.</p>
+                            <a href="#" class="text-indigo-400 hover:underline mr-4">Live Demo</a>
+                            <a href="#" class="text-indigo-400 hover:underline">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 px-6 container mx-auto scroll-mt-16">
+            <h2 class="text-4xl font-bold text-center mb-12">Get In Touch</h2>
+            <div class="max-w-2xl mx-auto text-center">
+                <p class="text-lg text-gray-300 mb-8">
+                    I'm currently open to new opportunities and collaborations. Feel free to send me a message!
+                </p>
+                <form id="contact-form" class="space-y-6">
+                    <input type="text" placeholder="Your Name" class="w-full p-4 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    <input type="email" placeholder="Your Email" class="w-full p-4 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                    <textarea placeholder="Your Message" rows="5" class="w-full p-4 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+                    <button type="submit" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-full transition duration-300">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-6">
+        <div class="container mx-auto text-center text-gray-400">
+            <p>&copy; 2025 Vishal Rajput. All Rights Reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <!-- Replace with your social links -->
+                <a href="#" class="hover:text-indigo-400 transition duration-300">GitHub</a>
+                <a href="#" class="hover:text-indigo-400 transition duration-300">LinkedIn</a>
+                <a href="#" class="hover:text-indigo-400 transition duration-300">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="myscript.js"></script>
+</body>
+</html>
