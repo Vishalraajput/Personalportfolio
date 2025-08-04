@@ -96,7 +96,7 @@ body {
 }
 
 
-#download-resume {
+/* #download-resume {
     position: relative;
     background-color: transparent;
     color: #e8e8e8;
@@ -122,10 +122,10 @@ body {
     height: 100%;
     pointer-events: none;
     background: linear-gradient(135deg,#7b4397,#dc2430 );
-    transform: translate(0%,90%);
+    transform: translate(50%,90%);
     z-index: 99;
     position: relative;
-    transform-origin: bottom;
+    transform-origin: bottom; 
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
@@ -157,7 +157,9 @@ body {
 
 #download-resume:active {
     scale: 0.95;
-}
+} */
+
+
 /* From Uiverse.io by gharsh11032000 
 .button {
   position: relative;
