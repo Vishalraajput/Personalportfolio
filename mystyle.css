@@ -1156,7 +1156,7 @@ body.light-mode .text-gray-400 {
 
 /* Style section headings with a blue color */
 body.light-mode h2 {
-    color: #2563eb; 
+    color: #6c92e5; 
 }
 
 /* Style links and accents with a pink/magenta color */
@@ -1165,11 +1165,11 @@ body.light-mode p.text-indigo-300,
 body.light-mode .nav-link:hover,
 body.light-mode footer a:hover span,
 body.light-mode footer a:hover i {
-    color: #d946ef !important; /* Fuchsia */
+    color: #627615 !important; /* Fuchsia */
 }
 
 body.light-mode .text-indigo-400:hover {
-    color: #a21caf !important; /* Darker Fuchsia for hover */
+    color: #00f7ce !important; /* Darker Fuchsia for hover */
 }
 
 body.light-mode header .nav-link {
